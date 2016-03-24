@@ -1,0 +1,164 @@
+----------------------------- xHarbour Error Log ------------------------------
+
+Date...............: 07/20/15
+Time...............: 16:33:56
+
+Application name...: c:\Marcelo\BO\bo.exe
+Workstation name...: ASPEC-RES-132
+Available memory...: 3667616
+Current disk.......: C
+Current directory..: Marcelo\BO
+Free disk space....: 170003333120
+
+Operating system...: Windows 7 Professional 6.01.7601 Service Pack 1
+xHarbour version...: xHarbour build 1.2.1 Intl. (SimpLex) (Rev. 9660)
+xHarbour built on..: Nov 12 2012 12:57:13
+C/C++ compiler.....: MinGW GNU C 4.7 (32 bit)
+Multi Threading....: NO
+VM Optimization....: 2
+
+Current Area ......:1
+
+-------------------------- Environmental Information --------------------------
+
+SET ALTERNATE......: OFF
+SET ALTFILE........: 
+SET AUTOPEN........: ON
+SET AUTORDER.......: 0
+SET AUTOSHARE......: 0
+SET BACKGROUNDTASKS: OFF
+SET BACKGROUNDTICK.: 1000
+SET BELL...........: OFF
+SET BLINK..........: .T.
+SET CANCEL.........: ON
+SET CENTURY........: OFF
+SET COLOR..........: W/N,N/W,N/N,N/N,N/W
+SET CONFIRM........: OFF
+SET CONSOLE........: ON
+SET COUNT..........: 0
+SET CURSOR.........: 1
+SET DATE FORMAT....: MM/DD/YY
+SET DBFLOCKSCHEME..: 0
+SET DEBUG..........: ON
+SET DECIMALS.......: 2
+SET DEFAULT........: 
+SET DEFEXTENSIONS..: ON
+SET DELETED........: OFF
+SET DELIMCHARS.....: ::
+SET DELIMETERS.....: OFF
+SET DEVICE.........: SCREEN
+SET DIRCASE........: 0
+SET DIRSEPARATOR...: \
+SET EOL............: 13
+SET EPOCH..........: 1900
+SET ERRORLOG.......: ERROR.LOG,.F.
+SET ERRORLOOP......: 8
+SET ESCAPE.........: ON
+SET EVENTMASK......: 128
+SET EXACT..........: OFF
+SET EXCLUSIVE......: ON
+SET EXIT...........: OFF
+SET EXTRA..........: OFF
+SET EXTRAFILE......: 
+SET FILECASE.......: 0
+SET FIXED..........: OFF
+SET FORCEOPT.......: OFF
+SET HARDCOMMIT.....: ON
+SET IDLEREPEAT.....: ON
+SET INSERT.........: OFF
+SET INTENSITY......: ON
+SET LANGUAGE.......: EN
+SET MARGIN.........: 0
+SET MBLOCKSIZE.....: 0
+SET MCENTER........: OFF
+SET MESSAGE........: 0
+SET MFILEEXT.......: 
+SET OPTIMIZE.......: ON
+SET OUTPUTSAFETY...: ON
+SET PATH...........: 
+SET PRINTER........: OFF
+SET PRINTERJOB.....: 
+SET PRINTFILE......: PRN
+SET SCOREBOARD.....: ON
+SET SCROLLBREAK....: ON
+SET SOFTSEEK.......: OFF
+SET STRICTREAD.....: OFF
+SET TRACE..........: ON
+SET TRACEFILE......: TRACE.LOG
+SET TRACESTACK.....: 2
+SET TRIMFILENAME...: .F.
+SET TYPEAHEAD......: 50
+SET UNIQUE.........: OFF
+SET VIDEOMODE......: 0
+SET WRAP...........: OFF
+
+------------------------------------------Detailed Work Area Items-------------------------------------------
+
+
+----------------------------------- Internal Error Handling Information  ------------------------------------
+
+Subsystem Call ....: BASE
+System Code .......: 1449
+Default Status ....: .F.
+Description .......: Syntax error
+Operation .........: &
+Arguments .........:  [ 1] = Type: C Val: {"00001.0";"VALVULA EQUALIZADORA 25BAR";"27,29"}
+Involved File .....: 
+Dos Error Code ....: 0
+
+ Trace Through:
+----------------
+MAIN                  :      31 in Module: bo.prg
+
+
+############################################# Video Screen Dump #############################################
+
++--------------------------------------------------------------------------------------------------------------+
+| -lole32 -loleaut32 -luuid -lmpr -lwsock32 -lws2_32 -lmapi32 -lodbc32 -lodbccp32 -lpq -lmysql -lfbclient      |
+|                                                                                                              |
+|c:\Marcelo\BO>bo                                                                                              |
+|                                                                                                              |
+|Error BASE/1449  Syntax error: & Arguments: ( [ 1] = Type: C Val: {"00001.0";"VALVULA EQUALIZADORA 25BAR";"27,|
+|29"})                                                                                                         |
+|                                                                                                              |
+|Error at ...: MAIN(31) in Module: bo.prg                                                                      |
+|                                                                                                              |
+|c:\Marcelo\BO>CompHB bo                                                                                       |
+|                                                                                                              |
+|c:\Marcelo\BO>HARBOUR.EXE /N /M /A /W /ES2 /D_SOB_XHB121M  /Z bo /O.\ /Q0 /GO                                 |
+|Exec: gcc  -c -D__EXPORT__ -IV:\x32\proteg\xhb121M/include -LV:\x32\proteg\xhb121M/lib -o.\bo.o .\bo.c        |
+|Deleting: ".\bo.c"                                                                                            |
+|Done.                                                                                                         |
+|                                                                                                              |
+|c:\Marcelo\BO>C:\Desenv\WorkSpace\marcelo.sousa\Z_Fonte\banco\F\UTILS\PBUILDER bo                             |
+|                                                                                                              |
+|c:\Marcelo\BO>v:\X32\proteg\xhb121m\bin\harbour -iv:\X32\proteg\xhb121m\include /D_BANCO /b /go bo.prg        |
+|xHarbour Compiler build 1.2.1 (SimpLex) (Rev. 9660)                                                           |
+|Copyright 1999-2012, http://www.xharbour.org http://www.harbour-project.org/                                  |
+|Compiling 'bo.prg'...                                                                                         |
+|Lines 39, Functions/Procedures 2                                                                              |
+|Generating C source output to 'bo.c'...                                                                       |
+|Done.                                                                                                         |
+|                                                                                                              |
+|Building object module for 'bo.c'                                                                             |
+|using C compiler 'gcc' as defined in 'V:\x32\proteg\xhb121M\bin\harbour.cfg'...                               |
+|Exec: gcc  -c -D__EXPORT__ -IV:\x32\proteg\xhb121M/include -LV:\x32\proteg\xhb121M/lib  bo.c                  |
+|Done.                                                                                                         |
+|Deleting: "bo.c"                                                                                              |
+|Done.                                                                                                         |
+|                                                                                                              |
+|c:\Marcelo\BO>v:\x32\mingw\bin\mingw32-gcc bo.o v:\X32\proteg\xhb121m\bin\mainwin.o -o bo.exe -Wall -Wl,--kill|
+|-at -Wl,--enable-stdcall-fixup -mwin32 -Lv:\X32\proteg\xhb121m\lib -Wl,--allow-multiple-definition -Wl,--start|
+|-group -lvm -lrtl -lpcrepos -lgtwin -llang -lrdd -lrtl -lvm -lmacro -lpp -ldbfntx -ldbfcdx -ldbffpt -lhsx -lhb|
+|six -lcommon -lcodepage -lm -ldebug -lsqlrdd -Wl,--end-group -luser32 -lwinspool -lgdi32 -lcomctl32 -lcomdlg32|
+| -lole32 -loleaut32 -luuid -lmpr -lwsock32 -lws2_32 -lmapi32 -lodbc32 -lodbccp32 -lpq -lmysql -lfbclient      |
+|                                                                                                              |
+|c:\Marcelo\BO>bo                                                                                              |
+|                                                                                                              |
+|Error BASE/1449  Syntax error: & Arguments: ( [ 1] = Type: C Val: {"00001.0";"VALVULA EQUALIZADORA 25BAR";"27,|
+|29"})                                                                                                         |
+|                                                                                                              |
+|Error at ...: MAIN(31) in Module: bo.prg                                                                      |
++--------------------------------------------------------------------------------------------------------------+
+
+
