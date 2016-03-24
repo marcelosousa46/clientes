@@ -21,8 +21,8 @@ class ClientesController extends Controller
                 
         ->addColumn('action', function ($cliente) {
         return [
-                '<a href="/edit/'.$cliente->id.'" class="btn btn-xs btn-primary"><i class="fa fa-pencil-square-o fa-2x"></i></a>',
-                '<a href="/delete/'.$cliente->id.'" class="btn btn-xs btn-primary"><i class="fa fa-trash-o fa-2x"></i></a>'
+                '<a href="/edit/'.$cliente->id.'" class="btn btn-xs btn-primary"><i class="fa fa-pencil-square-o"></i></a>',
+                '<a href="/delete/'.$cliente->id.'" class="btn btn-xs btn-primary"><i class="fa fa-trash-o"></i></a>'
                ];
         })     
         ->setRowData([

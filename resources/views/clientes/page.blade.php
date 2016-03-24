@@ -17,8 +17,8 @@
                     <td>{{ $item->cli_nome }}</td>
                     <td>{{ $item->cli_endereco }}</td>
                     <td>
-                        <a href="clientes/edit/'{{ $item->id }}"class="btn btn-xs btn-primary"><i class="fa fa-pencil-square-o"></i></a>
-                        <a href="clientes/destroy/'{{ $item->id }}" class="btn btn-xs btn-primary"><i class="fa fa-trash-o"></i></a>
+                        <a href="clientes/edit/'{{ $item->id }}" ><i class="fa fa-pencil-square-o"></i></a>
+                        <a href="clientes/destroy/'{{ $item->id }}"><i class="fa fa-trash-o"></i></a>
                     </td>
                 </tr>    
             @endforeach

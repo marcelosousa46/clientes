@@ -6,8 +6,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class Cliente extends Model
 {
-    protected $table    = 'clientes';
+    protected $table    = 'cliente';
     protected $fillable = ['id','cli_nome','cli_endereco'];
+
+    public $timestamps = false;
     
     public function ContatoCliente() {
         return $this->hasMany('App\ContatoCliente');    
