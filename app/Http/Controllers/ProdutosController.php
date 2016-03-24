@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use yajra\Datatables\Datatables;
-use App\Produto;
+use App\Models\Produto;
 
 class ProdutosController extends Controller
 {

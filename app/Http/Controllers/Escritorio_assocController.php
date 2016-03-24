@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use yajra\Datatables\Datatables;
-use App\Escritorio_assoc;
+use App\Models\Escritorio_assoc;
 use DB;
 
 class Escritorio_assocController extends Controller

@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use yajra\Datatables\Datatables;
-use App\ContatoCliente;
+use App\Models\ContatoCliente;
 use DB;
 
 class ContatoClientesController extends Controller

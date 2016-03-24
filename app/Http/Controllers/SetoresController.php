@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use App\Setor;
+use App\Models\Setor;
 use yajra\Datatables\Datatables;
 use Auth;
 use Redirect;

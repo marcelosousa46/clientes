@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use App\Cliente;
+use App\Models\Cliente;
 use yajra\Datatables\Datatables;
 
 class ClientesController extends Controller

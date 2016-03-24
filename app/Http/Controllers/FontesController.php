@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use App\Fonte;
+use App\Models\Fonte;
 use League\Csv\Reader;
 use League\Csv\Writer;
 use Input;
